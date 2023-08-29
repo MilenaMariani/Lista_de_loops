@@ -1,7 +1,8 @@
-c = 0
 num = int (input("Qual numero voce deseja tirar o fatorial?: "))
-dim -=s
-while num < c :
-    num -=s
+i = num
+aux = num
+while (i > 1):
+    i = i - 1
+    n = n * i
 
-    c +=1
+print ("Fatorial do {} numero e {}".format (aux,n))

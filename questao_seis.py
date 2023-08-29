@@ -1,4 +1,4 @@
-num = int (input ("Quantos numeros deseja contar?: "))
+n= int (input ("Quantos numeros deseja contar?: "))
 n1 = 0
 n2 = 1
 print (n1)
