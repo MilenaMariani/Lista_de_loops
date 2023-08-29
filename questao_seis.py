@@ -7,4 +7,5 @@ print (n2)
 for x in range (1, n-1):
     resposta = n1 + n2 
     print (resposta)
-    n1 = n2n2 = resposta
+    n1 = n2
+    n2 = resposta
