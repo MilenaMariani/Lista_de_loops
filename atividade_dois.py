@@ -1,9 +1,12 @@
+num = float(input ("Digite um numero"))
 i = 0
 continuar = 's'
-prox_num = 0
+menor = num
 while continuar == 's':
     num = float(input ("Digite um numero"))
-    num += prox_num
+    if menor > num:
+        menor = num
+
     continuar = (input ("Deseja continuar? [s/n]")) 
-    if num > prox_num:
-        print (f"Esse numero: {num} e maior que {prox_num}")
+        
+print(f"O menor numero e {menor}")
